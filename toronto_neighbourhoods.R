@@ -22,12 +22,12 @@ demo <- read.csv(file="WB-Demographics.csv", header=T)
 sh2 <- merge(sh, demo, by.x='AREA_S_CD', by.y='Neighbourhood.Id')
 
 # Set the palette
-p <- colorRampPalette(c("white", "red"))(127)
+p <- colorRampPalette(c("white", "red"))(128)
 palette(p)
 
 # Scale the total population to the palette
 pop <- sh2@data$Total.Population
-cols <- (pop - min(pop))/diff(range(pop))*127
+cols <- (pop - min(pop))/diff(range(pop))*127+1
 plot(sh, col=cols)
 
 #RColorBrewer, spectral
