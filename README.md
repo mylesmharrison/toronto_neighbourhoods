@@ -1,6 +1,7 @@
 # toronto_neighbourhoods
-Chloropleths of Toronto Neighbourhood populations using R
 
-Backlink to blog post: http://www.everydayanalytics.ca/2016/03/plotting-choropleths-from-shapefiles-in-R.html
+Original Post 2016/03/19: 
+- Chloropleths of Toronto Neighbourhood populations using R
+- Backlink to blog post: https://www.r-bloggers.com/2016/03/plotting-choropleths-from-shapefiles-in-r-with-ggmap-toronto-neighbourhoods-by-population/
 
-Data from Toronto Open data: http://www.toronto.ca/open
+Updated 2023/02/01 with mapping in geopandas and folium
